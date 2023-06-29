@@ -33,7 +33,7 @@ from PySide6.QtUiTools import QUiLoader
 # from qtpy.QtWidgets import QApplication, QMainWindow, QTabWidget, QWidget, QVBoxLayout, QPlainTextEdit, QScrollArea
 # from qtpy.QtCore import Qt
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
-
+# end of imports
 
 class VerbositySignal(QObject):
 	signal = Signal(bool)
